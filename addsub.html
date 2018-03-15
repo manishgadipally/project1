@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+    Insert Number: <input type="text" onchange="myNumberOnChange()" id="myNumber">
+
+    <button onclick="operate(this)"> + </button>
+    <button onclick="operate(this)" id="subButton"> - </button>
+
+
+
+    <script>
+
+        function operate(a) {
+            var x = document.getElementById("myNumber").value;
+
+            if (a.id == "subButton") {
+                if (x > 0) {
+                    x = x - 1;
+                    document.getElementById("myNumber").value = x;
+
+                }
+                else {
+                    document.getElementById("myNumber").value = 0;
+                }
+            }
+            else {
+                x = 1 + parseInt(x);
+                document.getElementById("myNumber").value = x;    
+            }
+            myNumberOnChange();
+
+        }
+           
+        function myNumberOnChange() {
+            var x = document.getElementById("myNumber").value;
+            if (x == 0) {
+                document.getElementById("subButton").disabled = true;
+             
+            }
+            else {
+                document.getElementById("subButton").disabled = false;
+            }
+        }
+
+    </script>
+
+</body>
+</html>
