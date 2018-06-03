@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Factors</title>
+</head>
+
+<body>
+    <input type="text" id="txtNumber">
+    <button type="submit" id="txtNumber" onclick="displayFactors()">Find the Factors </button>
+    <p id="demo"></p>
+
+
+    <script>
+        function displayFactors() {
+            var x = parseInt(document.getElementById("txtNumber").value);
+            var i;
+            for (i = 1; i <= x; i++) {
+                if (x % i == 0) {
+                    document.write(i + "\n");
+
+
+                }
+            }
+        }</script>
+
+
+</body>
+
+</html>
