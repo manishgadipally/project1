@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <body>
+      <style>
+        body {
+          height: 800px;
+        }
+
+        #text {
+          position: fixed;
+          font-size: 10vw;
+          line-height: 10vw;
+          transform-origin: left top;
+        }
+      </style>
+
+      <div id="text">Manish Gadipally</div>
+
+      <script>
+        $(function() {
+          $(window).scroll(function() {
+            var mass = Math.max(0.1, 1 - 0.005 * $(this).scrollTop());
+
+            $("#text").css("transform", "scale(" + mass + ")");
+          });
+        });
+      </script>
+    </body>
+  </head>
+</html>
