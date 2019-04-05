@@ -1,0 +1,191 @@
+{
+  "PROCESS": [
+    {
+      "QueueName": "INM1",
+      "Applications": [
+        {
+          "name": "ASBA",
+          "url": ""
+        },
+        {
+          "name": "BRC",
+          "url": ""
+        },
+        {
+          "name": "Datawarehouse",
+          "url": ""
+        },
+        {
+          "name": "DC Charges Calaulator/HTV Charges",
+          "url": ""
+        },
+        {
+          "name": "WDM(GWIS)",
+          "url": ""
+        },
+        {
+          "name": "Ecare",
+          "url": ""
+        },
+        {
+          "name": "ECS Mandate",
+          "url": ""
+        },
+        {
+          "name": "E-quality",
+          "url": ""
+        },
+        {
+          "name": "FACT",
+          "url": ""
+        },
+        {
+          "name": "GDI",
+          "url": ""
+        },
+        {
+          "name": "Global Links",
+          "url": ""
+        },
+        {
+          "name": "Intellect NNC",
+          "url": ""
+        },
+        {
+          "name": "IBPS (Import Bulk Payment System)",
+          "url": ""
+        },
+        {
+          "name": "IMPS",
+          "url": ""
+        },
+        {
+          "name": "NRI PIS",
+          "url": ""
+        },
+        {
+          "name": "SWIMS",
+          "url": ""
+        },
+        {
+          "name": "Esmart",
+          "url": ""
+        },
+        {
+          "name": "Webcare (APAC)",
+          "url": ""
+        },
+        {
+          "name": "INR Processing",
+          "url": ""
+        },
+        {
+          "name": "ECS DEBIT REJECTS",
+          "url": ""
+        },
+        {
+          "name": "FOREIGN CURRENCY (FCY)",
+          "url": ""
+        },
+        {
+          "name": "LRMS",
+          "url": ""
+        },
+        {
+          "name": "DCM",
+          "url": ""
+        },
+        {
+          "name": "FIRC CONVERTOR -  FIRCCONV",
+          "url": ""
+        }
+      ]
+    },
+
+    {
+      "QueueName": "INM2",
+      "Applications": [
+        {
+          "name": "ehelpline",
+          "url": ""
+        },
+        {
+          "name": "LTMSI",
+          "url": ""
+        },
+        {
+          "name": "DMP",
+          "url": ""
+        },
+        {
+          "name": "Omniflow",
+          "url": ""
+        },
+        {
+          "name": "PDC",
+          "url": ""
+        },
+        {
+          "name": "PDD",
+          "url": ""
+        },
+        {
+          "name": "HUBonqms",
+          "url": ""
+        },
+        {
+          "name": "VBP",
+          "url": ""
+        },
+        {
+          "name": "RMS",
+          "url": ""
+        },
+        {
+          "name": "PDD",
+          "url": ""
+        },
+        {
+          "name": "Efos",
+          "url": ""
+        },
+        {
+          "name": "WMS",
+          "url": ""
+        },
+        {
+          "name": "EKUBER",
+          "url": ""
+        },
+        {
+          "name": "DNC",
+          "url": ""
+        },
+        {
+          "name": "CTS 2.5",
+          "url": ""
+        },
+        {
+          "name": "CTS 1.0",
+          "url": ""
+        },
+        {
+          "name": "WMS",
+          "url": ""
+        },
+        {
+          "name": "AMLOC",
+          "url": ""
+        },
+        {
+          "name": "Sfms NEFT",
+          "url": ""
+        },
+        {
+          "name": "SFMS MI",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
